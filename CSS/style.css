@@ -77,7 +77,7 @@ section {
   margin-bottom: 30px;
 }
 
-.banner-first-btn {
+.btn-primary {
   color: #FFFFFF;
   height: 64px;
   background: #FD6E0A;
@@ -172,19 +172,40 @@ padding: 30px;
 }
 .resume-title {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
-.resume-contailer {
+.resume-container {
   display: flex;
   justify-content: space-between;
+  text-align: left;
+  gap: 20px;
 }
 
-.education {
-  text-align: left;
+
+.resume-item-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+
 }
 
-.experience {
-  text-align: left;
+.resume-item-subtitle {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.resume-item-description {
+  color: #757575;
+
+}
+
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
